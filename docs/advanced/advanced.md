@@ -88,8 +88,8 @@ If you are not connected to an MQTT broker, you can erase the board configuratio
 Theengs bridge can benefit from updates following these different methods:
 * From Home Assistant directly, Settings->Devices & Services->Devices, click on the bridge, click on the firmware version, click Update
 * By connecting to your computer with a USB cable
-  * Go to the upload portal https://docs.openmqttgateway.com/upload/web-install.html
-  * Select "theengs-bridge", and unselect "Erase Flash" to keep your parameters
+  * Go to the [upload portal](https://docs.openmqttgateway.com/upload/web-install.html)
+  * Select "theengs-bridge" if you have TBRIDGE01, 'theengs-bridge-v11" if you have TBRIDGE02, and unselect "Erase Flash" to keep your parameters
   * Click on INSTALL, and wait a few minutes
   * The bridge will have now the latest version
 * From the WifiManager portal, by uploading a binary directly to the bridge
